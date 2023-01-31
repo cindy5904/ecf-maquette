@@ -30,6 +30,8 @@ header {
 .assiette {
     width: 50%;
     border-radius: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .logo  img{
@@ -93,6 +95,18 @@ header .nav .connect ul li .inscription {
     color: #e8eaee;
     border-radius: 5px;
 }
+.svg {
+    width: 100px;
+    height: 100px;
+    margin-left: 910px;
+    margin-top: -70px;
+    fill : lightgray !important ;
+    position: absolute;
+   
+}
+
+
+
 
 .flex {
     display: flex;
@@ -169,6 +183,8 @@ section {
      width: 50%;
     border-radius: 20px;
     height: 30%;
+    position: relative;
+    z-index: 1;
     
 }
 .service h2 {
@@ -211,5 +227,14 @@ section {
     font-size: 12px;
 }
 
+.svg2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -50px;
+    fill : lightgray !important ;
+    position: absolute;
+   
+}
 
 
