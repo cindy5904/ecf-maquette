@@ -373,12 +373,6 @@ footer {
     margin-bottom: 130px;
 }
 
-
-footer > .container > .link{
-    /* justify-content: space-between; */
-    
-    
-}
 footer .container2 {
     width: 980px;
     margin: auto;
@@ -443,6 +437,28 @@ footer .listes .btnInput {
     border-top: 2px solid #b6bcc5;
     margin-top: 50px;
     
+}
+
+footer .flex .section1 .logoSection1 {
+    width: 40px;
+}
+
+footer .cont {
+    width: 980px;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+.section2 p,a {
+    font-size: 13px;
+}
+.section3 {
+    display: flex;
 }
 
 
