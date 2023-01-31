@@ -147,8 +147,8 @@ section {
     margin-bottom: 22px;
 }
 
-.delicieux .lecture {
-    font-size: 20px;
+.delicieux .lecture #circle{
+    
     column-gap: 20px;
     padding-left: 15px;
     
@@ -156,10 +156,23 @@ section {
 
 .delicieux .rencontreChef {
     font-size: 15px;
-    padding-left: 5px;
+    padding-left: 10px;
 
 }
+.delicieux .hove {
 
+    display :flex;
+}
+.delicieux .hove1 {
+    display: flex;
+}
+
+.hove1 :hover {
+    color: #6415ff;
+}
+#circle :hover {
+    color: #6415ff;
+}
 .delicieux .btn {
     font-size: 15px;
     background-color:#6415ff;
@@ -237,4 +250,75 @@ section {
    
 }
 
+.prestation h3 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+.prestation .home, .chef, .traiteur {
+    width: 300px;
+    text-align: center;
+}
 
+.prestation .flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 110px; */
+    margin-top: 70px;
+}
+
+.prestation > .flex1 {
+    align-items: center;
+}
+
+.prestation .background {
+    background-color:  #6415ff;
+    color: #e8eaee;
+    padding: 10px;
+    
+}
+.flex1 h4 {
+    font-weight: 700;
+}
+
+.prestation .flex1 .savoir {
+    color: #6415ff;
+}
+
+.choisir .flex2 {
+    display: flex;
+    
+}
+
+.choisir .flex .content .aleatoire {
+    background-color:#6415ff;
+    color: #e8eaee;
+
+}
+
+.choisir .flex .assiette3 {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.choisir .flex .content .violet {
+    font-size: 12px;
+    color: #6415ff;
+}
+.choisir .flex .content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.choisir .flex .content .descri {
+    margin-top: -10px;
+    font-size: 13px;
+    color : grey;
+    font-weight: bold;
+}
+
+.choisir .flex2 {
+    margin-top: 10px;
+}
