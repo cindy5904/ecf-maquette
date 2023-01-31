@@ -1,0 +1,215 @@
+body {
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color :#243e63;
+    background-color:  #e8eaee;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    
+}
+
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.assiette {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.logo  img{
+    width: 40px;
+}
+
+header .nav {
+    display : flex; 
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 46px;
+    height: 80px;
+}
+
+header .nav .logo {
+    font-weight: 900;
+
+}
+
+header .nav .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    color: #282525;
+    font-weight: 500;
+}
+header .nav .menu {
+    margin-left: 200px;
+}
+
+header .nav .menu ul {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 24px;
+    align-items: center;
+}
+
+header .nav .menu ul a {
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+header .nav .connect ul {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    row-gap: 24px;
+    
+
+}
+header .nav .connect ul a {
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+header .nav .connect ul li .inscription {
+    background-color: #6415ff;
+    padding: 13px 13px;
+    color: #e8eaee;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+
+.delicieux > .flex {
+    align-items: center;
+}
+
+.delicieux h1 {
+    margin-top : -25px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.delicieux .background {
+    background-color: #6415ff;
+    width: fit-content;
+    padding: 8px 10px 8px 10px;
+    color: #e8eaee;
+
+}
+
+
+section {
+    padding: 70px 0 32px 0;
+}
+
+.delicieux .description {
+    font-size: 15px;
+    color:grey;
+    margin-bottom: 22px;
+}
+
+.delicieux .lecture {
+    font-size: 20px;
+    column-gap: 20px;
+    padding-left: 15px;
+    
+}
+
+.delicieux .rencontreChef {
+    font-size: 15px;
+    padding-left: 5px;
+
+}
+
+.delicieux .btn {
+    font-size: 15px;
+    background-color:#6415ff;
+    padding: 12px ;
+    border-radius: 5px;
+    color: #e8eaee;
+}
+
+.service {
+    padding-top: 130px;
+}
+
+
+.service > .flex.container {
+    align-items: center;
+    column-gap: 16px;
+    row-gap: 24px;
+}
+
+.assiette2 {
+     width: 50%;
+    border-radius: 20px;
+    height: 30%;
+    
+}
+.service h2 {
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 0 rgba(13, 24, 28, 0.2)
+    
+    
+}
+
+.service .content1 {
+    padding-left: 40px;
+    margin-top: -10px;
+}
+
+.service .background {
+    background-color: #6415ff;
+    width: fit-content;
+    padding: 8px 10px 8px 10px;
+    color: #e8eaee;
+}
+
+.service .content1 .violet {
+    font-size: 10px;
+    color: #6415ff;
+}
+.service .content1 .description1 {
+    font-size: 12px;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.service .ajout {
+    background-color: #6415ff;
+    border-radius: 5px;
+    padding: 12px;
+    color: #e8eaee;
+    font-size: 12px;
+}
+
+
+
