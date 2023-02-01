@@ -86,6 +86,10 @@
             <div class="svg" >
                  <img class='pattern' src="./img/dot-pattern.svg" alt="image decorative">
             </div>
+            <div class="bulle">
+                <img src="./img/svg-decorator-blob-1.svg" alt="bulle bleu" class="bulleBleu">
+            </div>
+
         </section>
 
         <div class="js">
@@ -174,17 +178,17 @@
                     
                     <div class="flex2">
                         <div class="contenant1">
-                            <span class="block chiffre">94000+</span>
+                            <span class="block chiffre"> <span id="nombre1">94000</span>+</span>
                             <span class="block text">Commandes</span>
                         </div>
 
                         <div class="contenant2">
-                            <span class="block chiffre oula">11000+</span>
+                            <span class="block chiffre oula"> <span id="nombre2">11000</span> +</span>
                             <span class="block text client">Clients</span>
                         </div>
 
                         <div class="contenant3">
-                            <span class="block chiffre ole">1500+</span>
+                            <span class="block chiffre ole"> <span id="nombre3">1500</span> +</span>
                             <span class="block text chefs">Chefs</span>
                         </div>
                     </div>
@@ -208,92 +212,98 @@
 
         <div class="foot container2">
             <div class="flex">
-                <div class="liste">
-                    <h3 class="title">PRINCIPAL</h3>
-                    <ul class="link">
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQs</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                A propos de nous
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="liste">
-                    <h3 class="title">PRODUIT</h3>
-                    <ul class="link">
-                        <li>
-                            <a href="#">Se connecter</a>
-                        </li>
-                        <li>
-                            <a href="#">Personnel</a>
-                        </li>
-                        <li>
-                            <a href="#">Entreprise</a>
-                        </li>
-                        <li>
-                            <a href="#">Equipe</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="liste">
-                    <h3 class="title">PRESSE</h3>
-                    <ul class="link">
-                        <li>
-                            <a href="#">Logos</a>
-                        </li>
-                        <li>
-                            <a href="#">Evénements</a>
-                        </li>
-                        <li>
-                            <a href="#">Histoires</a>
-                        </li>
-                        <li>
-                            <a href="#">Bureau</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="liste" id="legal">
-                    <h3 class="title">LEGAL</h3>
-                    <ul class="link">
-                        <li>
-                           <a href="#">RGPD</a>
-                        </li>
-                        <li>
-                            <a href="#">Politique de confidentialité</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Conditions d'utilisations
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Avis de non-responsabilité
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="listes">
-                    <h3 class="title">S'INSCRIRE A NOTRE NEWSLETTER</h3>
-                    <P class="spam">Nous vous enverrons de bonnes choses à manger sans spam.</P>
+                
+                    <div class="liste">
+                        <ul class="link">
+                            <h3 class="title">PRINCIPAL</h3>
+                        
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    A propos de nous
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="liste">
+                        <ul class="link">
+                            <h3 class="title">PRODUIT</h3>
+                        
+                            <li>
+                                <a href="#">Se connecter</a>
+                            </li>
+                            <li>
+                                <a href="#">Personnel</a>
+                            </li>
+                            <li>
+                                <a href="#">Entreprise</a>
+                            </li>
+                            <li>
+                                <a href="#">Equipe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="liste">
+                        <ul class="link">
+                            <h3 class="title">PRESSE</h3>
+                        
+                            <li>
+                                <a href="#">Logos</a>
+                            </li>
+                            <li>
+                                <a href="#">Evénements</a>
+                            </li>
+                            <li>
+                                <a href="#">Histoires</a>
+                            </li>
+                            <li>
+                                <a href="#">Bureau</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="liste" id="legal">
+                        <ul class="link">
+                            <h3 class="title">LEGAL</h3>
+                        
+                            <li>
+                            <a href="#">RGPD</a>
+                            </li>
+                            <li>
+                                <a href="#">Politique de confidentialité</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Conditions d'utilisations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Avis de non-responsabilité
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="listes">
+                        <h3 class="title">S'INSCRIRE A NOTRE NEWSLETTER</h3>
+                        <P class="spam">Nous vous enverrons de bonnes choses à manger sans spam.</P>
 
-                    <input type="text" placeholder="Votre adresse email">
+                        <input type="text" placeholder="Votre adresse email">
 
-                    <button  class="btnInput">S'inscrire</button>
+                        <button  class="btnInput">S'inscrire</button>
+                        
+
+
                     
-
-
-
-                </div>
+                    </div>
+                
             </div>
             <div class="border"></div>
         </div>

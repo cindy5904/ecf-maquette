@@ -28,24 +28,35 @@ video.addEventListener("click", function(e) {
 
 } )
 
-// var ajout = document.querySelector('.ajout');
-// var nombre = document.querySelector('#change')
+var ajout = document.querySelector('.ajout');
+var nombre = document.querySelector('#change')
 
-// nombre.innerHTML ='5'
+nombre.innerHTML = 5
+var compt= 5
+
+ajout.addEventListener('click', function (e){
+        compt+=1
+        nombre.innerHTML = compt
+        
+})
+
+var nombre1 = document.querySelector('#nombre1');
+var nombre2 = document.querySelector('#nombre2');
+var nombre3 = document.querySelector('#nombre3');
+var btnrandom = document.querySelector('.aleatoire');
 
 
-// ajout.addEventListener('click', function (e){
-//         var compt= +1
-//         nombre.innerHTML = nombre + compt
-// })
 
-var nombre = 0
-function Compt() {
-    nombre ++;
-    document.queryselector(".ajout").textContent = nombre
 
-}
+btnrandom.addEventListener("click", function(e) {
+    nombre1.innerHTML = Math.floor(Math.random() * 100000)
+    nombre2.innerHTML = Math.floor(Math.random() * 100000)
+    nombre3.innerHTML = Math.floor(Math.random() * 100000)
+})
 
-document.querySelector('#change').addEventListener("click", Compt)
+
+
+
+
 
 
