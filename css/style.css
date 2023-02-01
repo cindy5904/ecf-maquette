@@ -100,7 +100,6 @@ header .nav .connect ul li .inscription {
     height: 100px;
     margin-left: 910px;
     margin-top: -70px;
-    fill : lightgray !important ;
     position: absolute;
    
 }
@@ -130,12 +129,17 @@ header .nav .connect ul li .inscription {
 
 .delicieux .background {
     background-color: #6415ff;
+    
     width: fit-content;
     padding: 8px 10px 8px 10px;
     color: #e8eaee;
+    
 
 }
 
+.delicieux .skew {
+
+}
 
 section {
     padding: 70px 0 32px 0;
@@ -200,6 +204,18 @@ section {
     height: 30%;
     position: relative;
     z-index: 1;
+    
+}
+.js {
+    width: 400px;
+    margin: auto;
+    padding-top: 55px;
+}
+.text {
+    font-size: 18px;
+    color: rgb(98, 198, 203);
+    text-align: center;
+    margin-top: 50px;
     
 }
 .service h2 {
@@ -305,6 +321,8 @@ section {
 .choisir .flex .assiette3 {
     width: 50%;
     border-radius: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 .choisir .flex .content .violet {
@@ -352,6 +370,23 @@ section {
     padding: 12px; 
     font-size: 12px;
     border-radius: 5px;
+}
+
+.pattern3 {
+    
+    
+
+    
+   
+    
+}
+
+.svg3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 680px;
+    margin-top: 330px;
+    position: absolute;
 }
 .prestation .flex1 .imgsvg {
     background-color: #e8eaee;
