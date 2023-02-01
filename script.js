@@ -1,0 +1,1 @@
+const ajout = document.querySelector
