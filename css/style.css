@@ -554,13 +554,21 @@ footer .cont {
 
 @media (max-width: 650px){
     body {
+        padding: 0;
         margin:0;
+        
         width: 100%;
+        box-sizing: border-box;
+        
     }
    
     .flex{
-        max-width: 40%;
-        margin: auto;
+        width: 650px;
+        
+       
+    }
+    .nav {
+        width: 650px;
     }
     header .logo {
         width: 20px;
@@ -572,6 +580,15 @@ footer .cont {
         
         justify-content: space-between;
         
+    }
+    main {
+        width: 650px;
+        
+      
+      
+    }
+    .delicieux {
+        width: 650px;
     }
     .delicieux .flex {
         display: flex;
@@ -600,22 +617,18 @@ footer .cont {
         
     }
     .delicieux .pattern {
-            margin-left: -288px;
+            margin-left: -509px;
             margin-top: 15px;
             width: 80px;
 
     }
     .js {
+        display: none;
+    }
+  
+    .service {
         width: 650px;
-        margin: auto;
     }
-    .js .text {
-        font-size: 10px;
-        margin-left: 290px;
-        text-align: center;
-        margin-top: 280px;
-    }
-
     .service .flex {
         display: flex;
         flex-direction: column;
@@ -647,10 +660,13 @@ footer .cont {
 
     }
     .service .pattern2 {
-        margin-left: 260px;
-        margin-top: -300px;
+        margin-left: 100px;
+        margin-top: -350px;
         position: absolute;
         width: 80px;
+    }
+    .prestation {
+        width: 650px;
     }
     .prestation {
         align-items: center;
@@ -660,7 +676,7 @@ footer .cont {
         font-size: 20px;
         align-items: center;
         text-align: center ;
-        
+        padding-left: 350px;
         margin: auto;
     }
     .flex1 {
@@ -668,7 +684,9 @@ footer .cont {
         flex-direction: column;
         justify-content: center;
     }
-
+    .choisir {
+        width: 650px;
+    }
     .choisir .flex {
         flex-direction: column-reverse;
         justify-content: center;
@@ -676,7 +694,7 @@ footer .cont {
         text-align: center;
     }
     .choisir .assiette3 {
-        width: 650px;
+        width: 85%;
     }
     .choisir .flex2 .text {
         margin-top: 5px;
@@ -689,16 +707,49 @@ footer .cont {
     .skew {
         margin: auto;
     }
+    .pattern3 {
+        position: absolute;
+        left: -330px;
+        top : -265px;
+        width: 80px;
+    }
     footer {
-    
-        text-align: left;
+        min-width: 650px;
+        margin: 0;
+        padding : 0 80px
+        
         
     }
 
-    footer .container2 {
-        width: 100%;
+    footer > .container2 > .flex {
+        flex-wrap: wrap;
+        
+        
+        
+        
+        
+      }
+   footer .liste .link{
+        
+        font-size: 5px;
+
+}
+    .bulle {
+        display:none;
     }
-}    
+
+    footer .cont {
+        width: 650px;
+    }
+
+    footer .border {
+        width: 650px;
+    }
+
+    footer .foot, .flex {
+        width: 650px;
+    }
+}
        
    
 
