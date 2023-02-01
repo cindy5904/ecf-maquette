@@ -303,6 +303,14 @@ section {
     color: #6415ff;
 }
 
+.prestation .imgsvg{
+    transform: translateY(-4px);
+}
+
+.prestation .imgsvg :hover {
+    transform: scale(1.5);
+}
+
 .choisir {
     padding-top: 140px;
 }
@@ -372,15 +380,6 @@ section {
     border-radius: 5px;
 }
 
-.pattern3 {
-    
-    
-
-    
-   
-    
-}
-
 .svg3 {
     width: 100px;
     height: 100px;
@@ -394,6 +393,22 @@ section {
     width: 120px;
     /* height: 150px; */
     margin: auto;
+}
+
+.prestation h3 {
+    display: flex;
+    justify-content: center;
+
+}
+.prestation .skew {
+    margin-left: 15px;
+}
+.skew {
+    transform: skew(-14deg);
+    background-color: #6415ff;
+    width: fit-content;
+    color: #fff;
+
 }
 
 footer {
@@ -461,10 +476,15 @@ footer .listes .btnInput {
     text-align: center;
     margin-left: -6px;
     border: none;
+    outline: none;
     border-radius: 0 5px 5px 0;
     background-color: #6415ff;
     color : #fff;
     
+}
+
+footer input {
+    outline : none;
 }
 
 .border {
@@ -520,8 +540,140 @@ footer .cont {
     width: 20px;
     padding: 5px;
 }
+@media (min-width: 690px){
+    .none {
+        display:none;
+    }
+}
 
+@media (max-width: 650px){
+    body {
+        margin:0;
+        width: 100%;
+    }
+   
+    .flex{
+        max-width: 40%;
+        margin: auto;
+    }
+    header .logo {
+        width: 20px;
+    }
+    header .menu , .connect{
+        display : none;
+    }
+    header .none .logo {
+        
+        justify-content: space-between;
+        
+    }
+    .delicieux .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .delicieux .flex h1 {
+        font-size: 20px;
+        
+        text-align: center;
+    }
 
+    .delicieux .flex .description {
+        font-size: 10px;
+    }
+    .delicieux .btn {
+        font-size: 10px;
+    }
 
+    .delicieux .assiette {
+        width: 100%;
+        margin-top: 50px;
+        position:relative;
+        z-index: 1;
+        
+    }
+    .delicieux .pattern {
+            margin-left: -288px;
+            margin-top: 15px;
+            width: 80px;
+
+    }
+    .js {
+        width: 650px;
+        margin: auto;
+    }
+    .js .text {
+        font-size: 10px;
+        margin-left: 290px;
+        text-align: center;
+        margin-top: 280px;
+    }
+
+    .service .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+    .service .flex .assiette2 {
+        width: 90%;
+        position: relative;
+        z-index: 1;
+    }
+    .service .flex .violet {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .service .flex h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .service .flex .description1 {
+        font-size: 10px;
+    }
+    .service .ajout {
+        font-size: 9px;
+        align-items: center;
+        margin: auto;
+
+    }
+    .service .pattern2 {
+        margin-left: 260px;
+        margin-top: -300px;
+        position: absolute;
+        width: 80px;
+    }
+
+    .prestation h3{
+        font-size: 20px;
+        align-items: center;
+    }
+    .flex1 {
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .choisir .flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .choisir .assiette3 {
+        width: 650px;
+    }
+    .choisir .flex2 .text {
+        margin-top: 5px;
+    }
+    .choisir .flex2 .contenant1, .contenant2, .contenant3{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+}
 
 

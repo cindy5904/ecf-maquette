@@ -22,7 +22,7 @@ var video = document.querySelector('#circle')
 video.addEventListener("click", function(e) {
 
     console.log(e)
-    frame.textContent = "https://www.youtube.com/embed/_GuOjXYl5ew"
+    frame.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     
 
 
