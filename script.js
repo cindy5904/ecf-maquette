@@ -16,13 +16,13 @@ btn.addEventListener("click" , function(e){
 
 
 
-var frame = document.querySelector('.assiette')
+var frame = document.querySelector('.video')
 var video = document.querySelector('#circle')
 
 video.addEventListener("click", function(e) {
 
     console.log(e)
-    frame.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+    frame.innerHTML = '<iframe width="443" height="295" border-radius="10px" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     
 
 

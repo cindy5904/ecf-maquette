@@ -28,8 +28,14 @@ header {
 }
 
 .assiette {
-    width: 50%;
+    width: 100%;
     border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.video {
+    border-radius: 10px;
     position: relative;
     z-index: 1;
 }
@@ -646,10 +652,16 @@ footer .cont {
         position: absolute;
         width: 80px;
     }
-
+    .prestation {
+        align-items: center;
+        text-align: center;
+    }
     .prestation h3{
         font-size: 20px;
         align-items: center;
+        text-align: center ;
+        
+        margin: auto;
     }
     .flex1 {
         
@@ -674,6 +686,15 @@ footer .cont {
         align-items: center;
         margin: auto;
     }
-}
-
+    .skew {
+        margin: auto;
+    }
+    footer {
+        width: 70%;
+        text-align: left;
+        
+    }
+}    
+       
+   
 
