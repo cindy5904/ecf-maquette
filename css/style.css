@@ -533,10 +533,9 @@ footer .cont {
     
 }
 
-.section3 img {
-    /* width: 20px; */
-    
-    
+#value {
+    font-size: 20px;
+    color: rgb(98, 198, 203);
 
 }
 .section3 .facebook, .twitter, .youtube {
