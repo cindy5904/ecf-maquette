@@ -50,25 +50,22 @@ body{
 
 .link li a {
   margin: auto;
-  
+  padding: 8px;
   text-decoration: none;
   color:black;
   transition: 1s;
   
 }
 
-.link li a :hover {
+.link:hover a{
   background-color: #6415ff;
   transition: 1s;
 }
 
-/* .bg {
-  background-color: #6415ff;
-  color: #fff !important;
-  border-radius: 2px;
-  margin: auto;
-  padding: 2px 15px;
-} */
+.lio {
+  margin-left: -35px;
+  
+}
 .skew {
   padding-left: 5px;
   transform: skew(-14deg);
@@ -102,9 +99,13 @@ body{
   height: 200px;
   object-fit: cover;
   border-radius: 3px 3px 0px 0px ;
+  transition: all 0.2;
   
 }
+.card:hover img{
+  filter: opacity(0.5);
 
+}
 h2 {
   font-size: 18px;
 }
@@ -124,7 +125,7 @@ h2, .descript, .prix{
 .stars {
   display: flex;
   align-items: center;
-  
+  /* width: 50px; */
   margin-top: -160px;
   margin-left: 10px;
   background-color: #fff;
@@ -142,6 +143,21 @@ h2, .descript, .prix{
   margin: 4px ;
 }
 
-.mousse{
-  height: 600px;
+.command {
+  display: none;
+  background-color: #6415ff;
+  color:#fff;
+  border-radius: 5px;
+  border: none;
+  padding : 10px 30px;
+  margin-top: -145px;
+  margin-left: -35px;
+  transition : 0.2s;
+
 }
+
+.card:hover .command{
+  display: block !important;
+ 
+
+} 

@@ -14,7 +14,7 @@ function Header() {
             <div className="nav">
 
                 <ul className="link">
-                    <li>
+                    <li className="lio">
                         <a href="#" className="bg">Tout</a>
                     </li>
                     <li>
