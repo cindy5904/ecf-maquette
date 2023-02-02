@@ -61,3 +61,25 @@ body{
   width: fit-content;
   color: #fff;
 }
+
+.list {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+}
+
+.card {
+  background-color: #fff;
+  width: 200px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(13, 24, 28, 0.2);
+  transition: 0.2s;
+}
