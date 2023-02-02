@@ -56,9 +56,10 @@ btnrandom.addEventListener("click", function(e) {
 
 var input = document.querySelector('#input');
 var btnInput = document.querySelector('.btnInput')
+var valeur = input.value;
 
-btnInput.addEventListener('click', (e){
-    input.innerHTML = 
+btnInput.addEventListener('click', function(e){
+    alert('Merci' + {valeur}) 
 })
 
 

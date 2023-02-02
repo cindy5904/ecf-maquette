@@ -686,6 +686,8 @@ footer .cont {
     }
     .choisir {
         width: 650px;
+        height: auto;
+        padding-top: 0;
     }
     .choisir .flex {
         flex-direction: column-reverse;
@@ -694,7 +696,7 @@ footer .cont {
         text-align: center;
     }
     .choisir .assiette3 {
-        width: 85%;
+        width: 90%;
     }
     .choisir .flex2 .text {
         margin-top: 5px;
