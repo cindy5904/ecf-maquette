@@ -161,3 +161,18 @@ h2, .descript, .prix{
  
 
 } 
+
+@media screen and (max-width: 674px){ 
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 70%;
+  }
+  .title {
+    font-size: 15px;
+  }
+
+
+  
+}
