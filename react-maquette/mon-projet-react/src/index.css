@@ -57,7 +57,7 @@ body{
   
 }
 
-.link:hover a{
+.hoo:hover {
   background-color: #6415ff;
   transition: 1s;
 }

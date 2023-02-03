@@ -551,24 +551,21 @@ footer .cont {
     }
 }
 
-@media (max-width: 650px){
+@media screen and (max-width: 674px){
     body {
         padding: 0;
         margin:0;
-        
+        overflow-x: hidden;
         width: 100%;
         box-sizing: border-box;
+        align-items: center;
         
     }
-   
-    .flex{
-        width: 650px;
-        
-       
-    }
-    .nav {
+    header {
         width: 650px;
     }
+  
+    
     header .logo {
         width: 20px;
     }
@@ -580,36 +577,42 @@ footer .cont {
         justify-content: space-between;
         
     }
+    .nav {
+        width: 250px;
+    }
     main {
         width: 650px;
-        
-      
-      
     }
-    .delicieux {
-        width: 650px;
-    }
+    
     .delicieux .flex {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     .delicieux .flex h1 {
         font-size: 20px;
-        
         text-align: center;
+        width: 250px;
     }
 
     .delicieux .flex .description {
         font-size: 10px;
+        text-align: center;
+        width: 250px;
     }
     .delicieux .btn {
-        font-size: 10px;
+        font-size: 8px;
+
+    }
+
+    .hove{
+        width: 350px;
     }
 
     .delicieux .assiette {
-        width: 100%;
+        width: 200px;
         margin-top: 50px;
         position:relative;
         z-index: 1;
@@ -625,9 +628,7 @@ footer .cont {
         display: none;
     }
   
-    .service {
-        width: 650px;
-    }
+    
     .service .flex {
         display: flex;
         flex-direction: column;
@@ -636,7 +637,7 @@ footer .cont {
         margin-top: -100px;
     }
     .service .flex .assiette2 {
-        width: 90%;
+        width: 200px;
         position: relative;
         z-index: 1;
     }
@@ -647,15 +648,18 @@ footer .cont {
     .service .flex h2 {
         font-size: 20px;
         text-align: center;
+        width: 250px;
     }
 
-    .service .flex .description1 {
+    .description1 {
         font-size: 10px;
+        width: 250px;
     }
     .service .ajout {
         font-size: 9px;
         align-items: center;
         margin: auto;
+
 
     }
     .service .pattern2 {
@@ -664,9 +668,7 @@ footer .cont {
         position: absolute;
         width: 80px;
     }
-    .prestation {
-        width: 650px;
-    }
+    
     .prestation {
         align-items: center;
         text-align: center;
@@ -677,15 +679,15 @@ footer .cont {
         text-align: center ;
         padding-left: 350px;
         margin: auto;
+        width: 250px;
     }
     .flex1 {
         
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .choisir {
-        width: 650px;
-        height: auto;
         padding-top: 0;
     }
     .choisir .flex {
@@ -695,15 +697,29 @@ footer .cont {
         text-align: center;
     }
     .choisir .assiette3 {
-        width: 90%;
+        width: 200px;
     }
     .choisir .flex2 .text {
         margin-top: 5px;
+        
+    }
+    
+    .choisir span {
+        font-size: 20px;
+        text-align: center;
+    }
+    .flex2 span {
+        font-size: 10px;
+    }
+
+    .descri {
+        width: 250px;
     }
     .choisir .flex2 .contenant1, .contenant2, .contenant3{
         text-align: center;
         align-items: center;
         margin: auto;
+        
     }
     .skew {
         margin: auto;
@@ -715,41 +731,36 @@ footer .cont {
         width: 80px;
     }
     footer {
-        min-width: 650px;
+        width: 650px;
         margin: 0;
-        padding : 0 80px
+        padding : 0 0px;
+        background-color: #718096;
+        background: cover;
         
         
     }
 
     footer > .container2 > .flex {
         flex-wrap: wrap;
-        
-        
-        
-        
-        
       }
    footer .liste .link{
         
         font-size: 5px;
 
 }
-    .bulle {
+    .bulle, .border {
         display:none;
     }
-
-    footer .cont {
-        width: 650px;
+    .cont {
+        flex-direction: column;
     }
-
-    footer .border {
-        width: 650px;
+    .section1, .section2, .section3 {
+        width: 215px;
     }
+    
 
-    footer .foot, .flex {
-        width: 650px;
-    }
+
+
 }
        
    
